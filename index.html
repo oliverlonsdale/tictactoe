@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic, tac, toe!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="button-row-1">
+            <button id="1" onclick="main(1)" style="border-left: none; border-top: none;"></button>
+            <button id="2" onclick="main(2)" style="border-left: none;"></button>
+            <button id="3" onclick="main(3)" style="border-left: none; border-bottom: none;"></button>
+        </div>
+        <div class="button-row-2">
+            <button id="4" onclick="main(4)" style="border-top: none;"></button>
+            <button id="5" onclick="main(5)"></button>
+            <button id="6" onclick="main(6)" style="border-bottom: none;"></button>
+        </div>
+        <div class="button-row-3">
+            <button id="7" onclick="main(7)" style="border-top: none;border-right: none;"></button>
+            <button id="8" onclick="main(8)" style="border-right: none;"></button>
+            <button id="9" onclick="main(9)" style="border-right: none; border-bottom: none;"></button>
+        </div>
+    </div>
+    <br>
+    <button id="refresh" onclick="window.location.reload()">Restart</button>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Fuzzy+Bubbles:wght@400;700&family=Lexend:wght@100..900&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Fuzzy Bubbles;
+    justify-content: center;
+}
+
+.container{
+    height: 50vh;
+    width: 25vw;
+    border: 2px white solid;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#start{
+    margin: auto;
+    display: flex;
+    font-size: 2rem;
+    width: 6vw;
+    height: 3vw;
+}
+.button-row-1, .button-row-2, .button-row-3{
+    display: grid;
+}
+
+.button-row-1>button, .button-row-2>button, .button-row-3>button{
+    height: 13vh;
+    width: 7vw;
+    color: white;
+    font-size: 3rem;
+    background-color: transparent;
+    border-color: white;
+    font-family: Fuzzy Bubbles;
+    cursor: pointer;
+}
+
+#refresh {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+    font-family: Fuzzy Bubbles;
+    background-color: transparent;
+    color: white;
+    height: 5vh;
+    width: 9vw;
+    font-size: 3vh;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#player-x-score, #player-o-score{
+    margin: auto;
+    display: flex;
+}
